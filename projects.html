@@ -24,69 +24,78 @@
 
     <!-- Moving Bubbles Started -->
 
-    <div class="wrapper">
+   <div class="wrapper-projects">
 
-      <!-- <header id="header"> -->
+    <!-- Navbar Started -->
 
-      <!-- Navbar Started -->
-
-      <nav id="navbar">
-        <div class="logo"><a href="#"><img class="sp" src="media/SPlogo.svg" alt=""></a></div>
-          <input type="checkbox" id="click">
-                <label for="click" class="menu-btn">
-                  <i class="fas fa-bars"></i>
-                </label>
-          <ul>
-            <li><a class="fas fa-home con-tooltip bottom" href="index.html">
+    <nav id="navbar">
+      <div class="logo"><a href="#"><img class="sp" src="media/SPlogo.svg" alt=""></a></div>
+        <input type="checkbox" id="click">
+              <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+              </label>
+        <ul>
+          <li><a class="fas fa-home con-tooltip bottom" href="index.html">
+          <div class="tooltip ">
+            <p>HOME</p>
+          </div></a></li>
+          <li><a class="fas fa-user con-tooltip bottom" href="profile.html">
+          <div class="tooltip ">
+            <p>PROFILE</p>
+          </div></a></li>
+          <li><a class="active fas fa-file-alt con-tooltip bottom" href="projects.html">
+          <div class="tooltip ">
+            <p>PROJECTS</p>
+          </div></a></li>
+          <!-- <li><a class="fas fa-photo-video con-tooltip bottom" href="gallery.html">
+          <div class="tooltip ">
+            <p>GALLERY</p>
+          </div></a></li></a></li> -->
+          <li><a class="fas fa-envelope con-tooltip bottom" href="contact.html">
             <div class="tooltip ">
-              <p>HOME</p>
+              <p>CONTACT</p>
             </div></a></li>
-            <li><a class="fas fa-user con-tooltip bottom" href="profile.html">
-            <div class="tooltip ">
-              <p>PROFILE</p>
-            </div></a></li>
-            <li><a class="active fas fa-file-alt con-tooltip bottom" href="projects.html">
-            <div class="tooltip ">
-              <p>PROJECTS</p>
-            </div></a></li>
-            <!-- <li><a class="fas fa-photo-video con-tooltip bottom" href="gallery.html">
-            <div class="tooltip ">
-              <p>GALLERY</p>
-            </div></a></li></a></li> -->
-            <li><a class="fas fa-envelope con-tooltip bottom" href="contact.html">
-              <div class="tooltip ">
-                <p>CONTACT</p>
-              </div></a></li>
-            </a></li>
-              <!-- THEME BUTTON STARTED -->
-            <div class="sun-moon">
-        
-              <a id = "light-mode-toggle" class="light-mode-toggle"> 
-                <svg class = "sun" style="width:24px;height:24px" viewBox="0 0 24 24">
-                    <path  d="M3.55,18.54L4.96,19.95L6.76,18.16L5.34,16.74M11,22.45C11.32,22.45 13,22.45 13,22.45V19.5H11M12,5.5A6,6 0 0,0 6,11.5A6,6 0 0,0 12,17.5A6,6 0 0,0 18,11.5C18,8.18 15.31,5.5 12,5.5M20,12.5H23V10.5H20M17.24,18.16L19.04,19.95L20.45,18.54L18.66,16.74M20.45,4.46L19.04,3.05L17.24,4.84L18.66,6.26M13,0.55H11V3.5H13M4,10.5H1V12.5H4M6.76,4.84L4.96,3.05L3.55,4.46L5.34,6.26L6.76,4.84Z" />
-                </svg>
-              </a>
-          
-              <a id="dark-mode-toggle" class="dark-mode-toggle">
-              <svg class="moon" style="width:24px;height:24px" viewBox="0 0 24 24">
-              <path d="M17.75,4.09L15.22,6.03L16.13,9.09L13.5,7.28L10.87,9.09L11.78,6.03L9.25,4.09L12.44,4L13.5,1L14.56,4L17.75,4.09M21.25,11L19.61,12.25L20.2,14.23L18.5,13.06L16.8,14.23L17.39,12.25L15.75,11L17.81,10.95L18.5,9L19.19,10.95L21.25,11M18.97,15.95C19.8,15.87 20.69,17.05 20.16,17.8C19.84,18.25 19.5,18.67 19.08,19.07C15.17,23 8.84,23 4.94,19.07C1.03,15.17 1.03,8.83 4.94,4.93C5.34,4.53 5.76,4.17 6.21,3.85C6.96,3.32 8.14,4.21 8.06,5.04C7.79,7.9 8.75,10.87 10.95,13.06C13.14,15.26 16.1,16.22 18.97,15.95M17.33,17.97C14.5,17.81 11.7,16.64 9.53,14.5C7.36,12.31 6.2,9.5 6.04,6.68C3.23,9.82 3.34,14.64 6.35,17.66C9.37,20.67 14.19,20.78 17.33,17.97Z" />
-              </svg>
-              </a>
-            
-            </div>
-            <!-- THEME BUTTON ENDED -->
-          </ul>
-      </nav>
+          </a></li>
+            <!-- THEME BUTTON STARTED -->
+                <li><a id="dark-mode-toggle" class="fas fa-palette con-tooltip bottom dark-mode-toggle moon">
+                  <div class="tooltip ">
+                    <p>Theme</p>
+                  </div></a></li>
+                </a></li>
+          <!-- THEME BUTTON ENDED -->
+        </ul>
+    </nav>
 
-      <!-- Navbar Ended -->
+    <!-- Navbar Ended -->
 
-      <!-- Upper SVG Started -->
+    <!-- Upper SVG Started -->
+    <svg class="upper-svg" style="z-index: 3; margin-top: 0rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 500" preserveAspectRatio="xMidYMid meet">
+      <style>
+      @media all and (max-width: 1100px) {
+        svg{
+          height: 50%;
+          width: 100%;
+        }
+      }
+      @media all and (max-width: 720px) {
+        svg{
+          height: 40%;
+          width: 100%;
+        }
+      }
+      @media all and (max-width: 500px) {
+        .upper-svg{
+          height: 35%;
+          width: 100%;
+          margin-top: 0rem;
+        }
+      }
+    </style>
+      <path id="path" fill="var(--svg-clr)" fill-opacity="1" d="M0,288L48,250.7C96,213,192,139,288,117.3C384,96,480,128,576,170.7C672,213,768,267,864,245.3C960,224,1056,128,1152,96C1248,64,1344,96,1392,112L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+    <!-- Upper SVG Ended -->
 
-      <svg style="position: absolute; z-index: 2;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--svg-clr)" fill-opacity="1" d="M0,288L48,250.7C96,213,192,139,288,117.3C384,96,480,128,576,170.7C672,213,768,267,864,245.3C960,224,1056,128,1152,96C1248,64,1344,96,1392,112L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-
-      <!-- Upper SVG Ended -->
-
-      <div class="project-details"><a class="change-clr" style="font-family: ButlerBold; font-size: 5rem;" href="#"> My Projects </a></div>
+      <div class="project-details"><a class="change-clr" style="font-family: ButlerBold;" href="#"> My Projects </a></div>
 
       <div class="project-points"><img src="media/600.jpg" alt=""></div>
 
@@ -105,7 +114,7 @@
       <div class="projects-main">
 
         <p style="color: gray;">MY PROJECTS</p>
-        <h1 style="font-family: ButlerBold; font-size: 4rem;">Projects Are Under Developement <br> Real Ones Will Appear Here</h1>
+        <h1 style="font-family: ButlerBold;">Projects Are Under Developement <br> Real Ones Will Appear Here</h1>
 
         <div class="projects">
 
@@ -113,24 +122,24 @@
 
             <div class="project-description">
 
-              <h1 style="font-family: ButlerBold; font-size: 3rem;">Xenesis Library Management System XLMS</h1>
-              <p style="color: whitesmoke;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem explicabo, laboriosam quibusdam labore vero magnam dolores illo impedit est, non corrupti! Commodi dolorum modi voluptas, impedit illo odit maiores molestias.</p>
+              <h1 style="font-family: ButlerBold;">XLMS</h1>
+              <p style="color: whitesmoke;">Lorem ipsum dolor sit amet, cedit est, non corrupti! Commodi dolorum modi voluptas, impedit illo odit maiores molestias.</p>
               <div class="explore-btn2"><p>VIEW PROJECT</p></div>
 
             </div>
-            <div><img class="hover-to-descript" src="media/designer.jpg" style="height: 600px; width: 1000px;" alt=""></div>
+            <div><img class="hover-to-descript" src="media/designer.jpg" alt=""></div>
 
           </div>
           <div class="project" data-aos="zoom-in">
 
             <div class="project-description">
 
-              <h1 style="font-family: ButlerBold; font-size: 3rem;">Xenator</h1>
-              <p style="color: whitesmoke;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quas qui dicta et cum odio quo corrupti voluptate aspernatur! Eveniet at excepturi aspernatur itaque vero nihil error possimus iusto ducimus.</p>
+              <h1 style="font-family: ButlerBold;">Xenator</h1>
+              <p style="color: whitesmoke;">Lorem ipsum dolor sit amet conse qui dice aspernatur! Eveniet at excepturi aspernatur itaque vero nihil error possimus iusto ducimus.</p>
               <div class="explore-btn2"><p>VIEW PROJECT</p></div>
 
             </div>
-            <div><img class="hover-to-descript" src="media/developer.jpg" style="height: 600px; width: 1000px;" alt=""></div>
+            <div><img class="hover-to-descript" src="media/developer.jpg" alt=""></div>
 
           </div>
 
@@ -138,12 +147,12 @@
 
             <div class="project-description">
 
-              <h1 style="font-family: ButlerBold; font-size: 3rem;">Runtime Terror</h1>
-              <p style="color: whitesmoke;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, in necessitatibus facere rerum ipsum, ullam assumenda recusandae optio officia dolorem explicabo inventore quisquam possimus quae eligendi sit facilis voluptatum consequatur?</p>
+              <h1 style="font-family: ButlerBold;">Runtime Terror</h1>
+              <p style="color: whitesmoke;">Lorem ipsum dolor sit amet consectetur adisquam possimus quae eligendi sit facilis voluptatum consequatur?</p>
               <div class="explore-btn2"><p>VIEW PROJECT</p></div>
 
             </div>
-            <div><img class="hover-to-descript" src="media/coding.jpg" style="height: 600px; width: 1000px;" alt=""></div>
+            <div><img class="hover-to-descript" src="media/coding.jpg" alt=""></div>
 
           </div>
 
@@ -155,7 +164,7 @@
 
       <!-- Footer Started -->
 
-      <footer style="margin-top: 8rem;">
+      <!-- <footer style="margin-top: 8rem;">
         <div>
           <h1>Liked my Designs? Follow me on <span> <u><a style="color: var(--foreground);" href="https://codepen.io/Acoustic_clown?__cf_chl_jschl_tk__=be8387260e2028da154e2fe2d1690f301f1701c8-1600664429-0-ATwru9cj79YKnfGd8B4pCc4EbowNOcXTW5fTX4R4yOaSpGzixHNpvFMOn71zFRi8GxG_ooa42qlVUp_SI--MBIDmOlPlcr_nXcN9gVh07xjChEaysJjjDXzPmvCgU3rz1CI7xizOHoEotZCd9ysQvI7Zk3f8CRfTbMAcETlbEWrAjDXFzELf5E9U6ZXyisZZYnzw8SJf2Qb0em3kfqIPscwKfze4dbFsWkZsBL9uRBUajnXDUGNjlG5aumPIqCS0htStaFL8FyMPUfCvQzuSHMIsu16tBBnyAPxDk0B9fnsV63XtUDloSTf0KA0qlnLvVSBAS34yCsoEUd-Ueuk7F_53XrV3z23w2shLfCRrT1nn" target="_blank" rel="noopener noreferrer" > @codepen.io </a> </u> </span> </h1>
         </div>
@@ -163,13 +172,13 @@
         <div>
           <p>&#169; SHIVANSH PRATAP - 2020 - ALL RIGHTS RESERVED</p>
         </div>  
-      </footer>
+      </footer> -->
 
       <!-- Foooter Ended -->  
 
       <!-- Lower SVG Started -->
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--svg-clr)" fill-opacity="1" d="M0,288L48,250.7C96,213,192,139,288,117.3C384,96,480,128,576,170.7C672,213,768,267,864,245.3C960,224,1056,128,1152,96C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--svg-clr)" fill-opacity="1" d="M0,288L48,250.7C96,213,192,139,288,117.3C384,96,480,128,576,170.7C672,213,768,267,864,245.3C960,224,1056,128,1152,96C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
 
       <!-- Lower SVG Ended -->
 
@@ -180,7 +189,7 @@
       <!-- Scripts Started -->
 
       <!-- <script src="scripts/parallax.js"></script> -->
-      <script src="scripts/back.js"></script>
+      <script src="scripts/back3.js"></script>
       <script src="scripts/dark.js"></script>
       <script src="scripts/aos.js"></script>
       <script src="scripts/changeColor.js"></script>
